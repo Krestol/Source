@@ -72,7 +72,7 @@ before_deploy:
   - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
 deploy:
   provider: releases
-  api_key: jzxN47UWFTsMLLdPlaUpVw
+  api_key: "jzxN47UWFTsMLLdPlaUpVw"
   file: "$FILE"
   on:
     repo: Krestol/Source
